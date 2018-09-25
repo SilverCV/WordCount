@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.0)
+project(wc C)
+include_directories(headers)
+set(CMAKE_C_STANDARD 11)
+AUX_SOURCE_DIRECTORY(src SRC_DIR)
+add_executable(wc ${SRC_DIR})
