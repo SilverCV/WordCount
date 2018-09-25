@@ -54,7 +54,7 @@ Useage Options:
     -l   Read the number of rows in a file
 
     -o   The Name of output file
-
+    -x   the gui pattern
 The -o must be at the back of input_file_name. And the back of -o has an output File!
 
 
