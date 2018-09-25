@@ -29,19 +29,6 @@ cd WordCount && make
 在cmake官网下载，然后配置mingw就可以使用
 具体mingw的配置，请参照网上的教程
 #### 注意
-wc.exe [parameter] [input_file_name] [-o] [output_file_name]
-
-Useage Options:
-
-    -c   Read the letters in the file
-
-    -w   Read the words in the file
-
-    -l   Read the number of rows in a file
-
-    -o   The Name of output file
-
-The -o must be at the back of input_file_name. And the back of -o has an output File!
 
 file_name] [-o] [output_file_name]
 
